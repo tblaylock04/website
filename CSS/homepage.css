@@ -110,62 +110,95 @@ a.footerItem
 
 footer.footerNav
 {
-    /* position: absolute;
-    margin-bottom: 0px; */
     padding: 16px 32px;
     text-align: center;
     border-top: 1px solid #DDE0E3;
 }
 
 
-h1
+
+
+
+
+
+
+
+
+
+/* Hero */
+
+.hero
 {
-    font-size: 56px;
+    display: inline-flex;
+    width: 100%;
+
+
+
+
+
+    border-bottom: 0.5px solid #DDE0E3;
+
 }
 
 
-p.body /*paragraphs with the class "body". This is called an element.class*/
+.hero-text-container
+{
+    width: 50%;
+    margin-left: 78px;
+    padding: 100px 0;
+
+
+}
+
+
+.hero-text-wrapper
+{
+    width: 450px;
+}
+
+
+.hero-header > h1
+{
+    font-size: 56px;
+    clear:right;
+}
+
+
+.hero-body > p
 {
     font-size: 18px;
 }
 
 
-.test
+.hero-img-container
 {
-    border: 1px solid #000;
+    width: 50%;
+    margin-right: 78px;
 }
 
 
-div.hero
-{
-    display: inline-flex;
-    padding: 50px 78px;
-}
-
-
-div.heroText
-{    
-    width: 450px;
-}
-
-
-img.heroImage
+.hero-img > img
 {
     float: right;
-    width: 350px;
-    height: 350px;
-
+    width: 450px;
+    height: 450px;
+    margin: 50px 0;
 }
 
 
-div.subHero
+/* Containers */
+
+.container
 {
-    border-top: 0.5px solid #DDE0E3;
     border-bottom: 0.5px solid #DDE0E3;
     text-align: center;
 }
 
-span.heroText
+
+
+/* Inline Styles */
+
+.blue-text
 {
     color: #337CE8;
 }
